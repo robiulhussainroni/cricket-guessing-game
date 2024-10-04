@@ -5,3 +5,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Courier Prime", monospace;
+  line-height: 1;
+  background-color: #f1f3f5;
+}
+
+.flex {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 11px;
+  font-size: 2rem;
+  padding: 1.2rem 2.4rem;
+  background-color: #111;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #111;
+}
