@@ -13,7 +13,8 @@ html {
 body {
   font-family: "Courier Prime", monospace;
   line-height: 1;
-  background-color: #f1f3f5;
+  /* background-color: #f1f3f5; */
+  background-color: #fcc419;
 }
 
 .flex {
@@ -29,11 +30,12 @@ body {
   font-size: 2rem;
   padding: 1.2rem 2.4rem;
   background-color: #111;
-  color: #fff;
+  color: #f7f7f7;
+  border: 5px solid #f06595;
   transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: #aaa;
   color: #111;
 }
