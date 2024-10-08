@@ -21,18 +21,22 @@
     <main class="main">
       <h2 class="secondary-heading">What will happen in the next bowl ?</h2>
       <p class="choose">Choose only one :</p>
-      <div class="flex">
-        <button class="btn wicket">☝️ Wicket</button>
-        <button class="btn dot">Dot</button>
-        <button class="btn one">1</button>
-        <button class="btn two">2</button>
-        <button class="btn three">3</button>
-        <button class="btn four">4</button>
-        <button class="btn five">5</button>
-        <button class="btn six">6</button>
-      </div>
+      <form action="#">
+        <select class="select">
+          <option class="btn wicket">☝️ Wicket</option>
+          <option class="btn dot">Dot</option>
+          <option class="btn one">1</option>
+          <option class="btn two">2</option>
+          <option class="btn three">3</option>
+          <option class="btn four">4</option>
+          <option class="btn five">5</option>
+          <option class="btn five">6</option>
+        </select>
+        <button class="btn check">Check</button>
+      </form>
       <div class="justify-between">
         <p>Score : <span class="score">10</span></p>
+        <p class="message">Start Guessing..</p>
         <p>Highscore : <span class="high-score">0</span></p>
       </div>
     </main>
