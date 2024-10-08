@@ -1,0 +1,98 @@
+/* 1280px */
+@media (max-width: 80em) {
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+
+  .choose,
+  .select,
+  .again {
+    font-size: 2.4rem;
+  }
+
+  .justify-between p {
+    font-size: 2rem;
+  }
+
+  .again {
+    transform: translate(10%, -50%);
+  }
+}
+
+/* 1096px */
+@media (max-width: 68.5em) {
+  .main {
+    max-width: 75rem;
+    padding: 4.8rem 2.4rem 2.4rem 2.4rem;
+  }
+  .again {
+    transform: translate(-120%, -50%);
+  }
+}
+
+/* 864px */
+@media (max-width: 54em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .main {
+    max-width: 50rem;
+  }
+
+  .primary-heading {
+    font-size: 4rem;
+  }
+  .secondary-heading {
+    font-size: 3rem;
+  }
+
+  .choose,
+  .select,
+  .again {
+    font-size: 2rem;
+  }
+
+  .justify-between {
+    flex-direction: column;
+    gap: 2.4rem;
+    justify-content: flex-start;
+    margin-block: 3.2rem;
+    padding: 0;
+  }
+
+  .again {
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* 560px */
+@media (max-width: 35em) {
+  html {
+    font-size: 50%;
+  }
+
+  .main {
+    max-width: 34rem;
+  }
+
+  .primary-heading {
+    font-size: 3.6rem;
+  }
+  .secondary-heading {
+    font-size: 2.4rem;
+  }
+
+  .choose,
+  .select,
+  .again {
+    font-size: 1.6rem;
+  }
+
+  .choose {
+    letter-spacing: 6px;
+  }
+}
