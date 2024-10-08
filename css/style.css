@@ -2,6 +2,7 @@
 .header {
   max-width: 95rem;
   margin: 5rem auto;
+  padding: 0 3.2rem;
 }
 
 .primary-heading {
@@ -31,6 +32,7 @@
   margin: 0 auto;
   padding: 3.2rem;
   background-color: #fff9db;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
   position: relative;
   animation: main 6s ease-in-out;
 }
@@ -75,4 +77,16 @@
   font-size: 3rem;
   letter-spacing: 12px;
   margin-top: 4.8rem;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3.2rem;
+  margin-block: 4.8rem;
+}
+
+.justify-between p {
+  font-size: 2.4rem;
+  font-weight: 700;
 }
