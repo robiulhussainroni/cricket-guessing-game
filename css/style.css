@@ -29,7 +29,7 @@
 
 .main {
   max-width: 95rem;
-  margin: 0 auto;
+  margin: 0 auto 2.4rem;
   padding: 3.2rem;
   background-color: #fff9db;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
