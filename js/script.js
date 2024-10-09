@@ -34,13 +34,17 @@ document.querySelector(".check").addEventListener("click", function () {
         document.querySelector(".message").textContent =
           "🐸 Your guess is wrong ! 📉";
       }
-    }
 
-    score--;
-    document.querySelector(".score").textContent = score;
-  } else {
-    document.querySelector(".message").textContent = "🚫 You lost the Game..";
-    document.querySelector(".score").textContent = 0;
+      score--;
+      document.querySelector(".score").textContent = score;
+    } else {
+      document.querySelector(".message").textContent = "🚫 You lost the Game..";
+      document.querySelector(".score").textContent = 0;
+      document.querySelector(".main").style.backgroundColor = "#111";
+      document.querySelector("body").style.backgroundColor = "#e03131";
+      document.querySelector(".message").style.fontSize = "3rem";
+      document.querySelector(".message").style.color = "#9c36b5";
+    }
   }
 });
 
