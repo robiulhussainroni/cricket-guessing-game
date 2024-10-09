@@ -50,6 +50,7 @@ document.querySelector(".check").addEventListener("click", function () {
 
 document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".select").value = "Please choose one :";
+  score = 10;
   document.querySelector(".score").textContent = 10;
   document.querySelector(".message").textContent = "Start Guessing..";
 
