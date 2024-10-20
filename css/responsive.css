@@ -71,9 +71,9 @@
 
 /* 560px */
 @media (max-width: 35em) {
-  html {
+  /* html {
     font-size: 50%;
-  }
+  } */
 
   .main {
     max-width: 34rem;
