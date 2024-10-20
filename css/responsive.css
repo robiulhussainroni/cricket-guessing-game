@@ -95,4 +95,8 @@
   .choose {
     letter-spacing: 6px;
   }
+
+  .select {
+    padding: 1.2rem;
+  }
 }
