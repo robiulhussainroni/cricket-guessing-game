@@ -2,7 +2,6 @@
 let score = 10;
 let highScore = 0;
 const nextBowl = Math.trunc(Math.random() * 8 + 1);
-console.log(nextBowl);
 
 document.querySelector(".check").addEventListener("click", function () {
   document.querySelector(".wicket").value = 7;
