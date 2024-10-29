@@ -35,3 +35,7 @@ body {
   background-color: #aaa;
   color: #111;
 }
+
+.hidden {
+  display: none;
+}
